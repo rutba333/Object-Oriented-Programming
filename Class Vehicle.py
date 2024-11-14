@@ -1,7 +1,10 @@
 #create a class
+
 class Vehicle:
+          #class atribute
+    species="bird"
           #create init method
-          def __init__(self,max_speed,milaeage):
+def __init__(self,max_speed,milaeage):
                   #blind the arguments
                   self.max_speed=max_speed
                   self.milaeage=milaeage
